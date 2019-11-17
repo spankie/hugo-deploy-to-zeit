@@ -39,3 +39,4 @@ This will:
 - Build the repository into the `public` folder.
 - Deploy the app to zeit using the now command
 
+This action was inspired by [benmatselby's](https://github.com/benmatselby/hugo-deploy-gh-pages) action
