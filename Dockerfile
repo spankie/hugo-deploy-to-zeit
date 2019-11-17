@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM mhart/alpine-node:12 
 LABEL maintainer="Odohi David <odohi.david@gmail.com>"
 
 LABEL "com.github.actions.name"="Hugo Deploy To Zeit"
