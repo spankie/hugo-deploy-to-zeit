@@ -1,0 +1,17 @@
+name: "Hugo Deploy To Zeit"
+author: "spankie"
+description: "Build and deploy a hugo site to zeit using now"
+inputs:
+  ZEIT_TOKEN:
+    description: 'A token provided on your zeit dashboard, to allow deployment to zeit'
+    required: true
+  HUGO_VERSION:
+    description: 'This allows you to control which version of Hugo you want to use. There is a default within the action, but this may be out of date.'
+    required: false
+    default: "0.59.1"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'zap'  
+  color: 'white'
