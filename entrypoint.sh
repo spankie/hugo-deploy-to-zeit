@@ -23,5 +23,5 @@ echo 'Hugo finished building'
 echo 'Deploying to Zeit'
 npm i -g now
 cd public
-now --prod --token $ZEIT_TOKEN
+now --prod --token "$ZEIT_TOKEN"
 echo 'Complete'
