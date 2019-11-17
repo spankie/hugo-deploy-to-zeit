@@ -30,7 +30,7 @@ jobs:
       - name: Deploy the site
         uses: spankie/hugo-deploy-to-zeit@master
         env:
-          HUGO_VERSION: 0.57.2
+          HUGO_VERSION: 0.59.1
           ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
 ```
 
