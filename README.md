@@ -1,10 +1,10 @@
 # GitHub Action to build and deploy a Hugo site to zeit
 
-This GitHub action will build your [Hugo site](https://gohugo.io/), and deploy it to [ZEIT](https://zeit.co/).
+This GitHub action will build your [Hugo site](https://gohugo.io/), and deploy it to [Vercel](https://vercel.com).
 
 ## Secrets
 
-- `ZEIT_TOKEN`: A token provided on your zeit dashboard, to allow deployment to zeit
+- `ZEIT_TOKEN`: A token provided on your Vercel (formerly zeit) dashboard, to allow deployment to Vercel
 
 ## Environment Variables
 
@@ -37,6 +37,6 @@ jobs:
 This will:
 
 - Build the repository into the `public` folder.
-- Deploy the app to zeit using the now command
+- Deploy the app to vercel using the now command
 
 This action was inspired by [benmatselby's](https://github.com/benmatselby/hugo-deploy-gh-pages) action
